@@ -37,6 +37,8 @@ ul{
   font-weight: bold;
   font-size: 20px;
   margin-top: 60px;
+  cursor: pointer;
+  
 }
 .dark{
   padding:15px;
@@ -111,8 +113,8 @@ header a:hover{
 }
 
 .logo{
-  height: 80px;
-  width: 150px;
+  height:100px;
+  width: 170px;
   margin-top: 15px;
   margin-left: 0px;
 }
@@ -151,8 +153,175 @@ header a:hover{
 }
 
 #boxes .box img{
-  width:90px;
+  width:150px;
 }
+
+.text{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  background-color: rgb(238, 172, 85);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px
+}
+.text1{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  background-color: rgb(141, 185, 202);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px
+}
+.text2{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  background-color: rgb(216, 149, 190);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px
+}
+.text3{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  background-color: rgb(190, 181, 187);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px
+}
+.box {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  /* border: 1px solid #e8491d; */
+  margin-top: 20px;
+  cursor: pointer;
+  
+  transition: background-color .5s;
+}
+
+.box:hover {
+  background-color:rgb(245, 214, 112);;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: right;
+  width: 25%;
+  padding: 0 20px;
+  margin-right: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+ 
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -35px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+.card img{
+  width:150px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.button23 {
+  font-size: 1em;
+  padding: 10px;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button23:hover {
+  background: rgb(243, 198, 50);
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  margin-bottom: 10px;
+  }
+}
+
 
 /* Sidebar */
 aside#sidebar{
@@ -185,10 +354,14 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:#e8491d;
+  background-color:rgb(255, 183, 01);
   text-align: center;
+  font-weight: bold;
 }
-
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
 /* Media Queries */
 @media(max-width: 768px){
   header #branding,
@@ -222,3 +395,4 @@ footer{
     margin-bottom:5px;
   }
 }
+
