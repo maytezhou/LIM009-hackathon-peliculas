@@ -125,6 +125,11 @@ header a:hover{
   background:#50547c
 }
 
+#newsletter5{
+  padding:15px;
+  color:#ffffff;
+  background:#50547c;
+}
 #newsletter h1{
   float:left;
 }
@@ -395,4 +400,89 @@ footer{
     margin-bottom:5px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-conteiner {
+  margin-top: 15px;
+  padding: 2em 1em;
+  
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  
+}
+
+.flex-data {
+  
+  
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  padding: 0px;
+  font-size: 20px;
+  border-radius: 4px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+.candys {
+
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  padding: 0px;
+  font-size: 20px;
+  
+}
+
+
+
+@media(min-width: 360px){
+  body{
+      
+      flex-direction: column;
+  }
+  header{
+      background-size: 100%;
+  }
+  .option{
+      flex-direction: column;
+  }
+  }
+@media(min-width: 768px){
+  body{
+     
+      flex-direction: column;
+
+  }
+}
+@media(min-width: 1200px){
+  body{
+     
+      flex-direction: column;
+  }
+  .option{
+      display: block;
+      position: absolute;
+  }
+} 
 
