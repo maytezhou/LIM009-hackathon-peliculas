@@ -2,7 +2,7 @@ const content = document.getElementById('root')
 const searchBtn = document.getElementById('search-btn')
 const inputTitle = document.getElementById('input-title')
 
-const arrFilms = ["tt3799232", "tt3846674", "tt1817385", "tt0387728", "tt1974182", "tt0304968", "tt1951264", "tt1951265", "tt1951266",
+const arrFilms = ["tt3799232", "tt3846674", "tt1817385","tt1974182", "tt0304968", "tt1951264", "tt1951265", "tt1951266",
   "tt1840309", "tt4516496", "tt5251060", "tt1201607", "tt0107048", "tt3106046", "tt0095631", "tt0093822", "tt0387808",
   "tt1119646", "tt7634968", "tt0212338", "tt0302886", "tt0032138", "tt0120737 ", " tt0241527", "tt0327597", "tt4123430", "tt5028340",
   "tt0088323", "tt3040964", "tt1587310", "tt0363771", "tt0088247", "tt0095016", "tt0093870", "tt0266697", "tt0088944", "tt4912910", "tt2406566", "tt0293662"];
