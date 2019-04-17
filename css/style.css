@@ -27,6 +27,11 @@ ul{
   font-weight: bold;
   font-size: 15px;
 }
+.help{
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
 .button_2{
   height:38px;
   background:#e8491d;
@@ -35,7 +40,7 @@ ul{
   padding-right:20px;
   color:#ffffff;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 66px;
   margin-top: 60px;
   cursor: pointer;
   
@@ -70,6 +75,9 @@ header li{
   padding: 0 20px 0 20px;
 }
 
+.highlight{
+  color:red
+}
 header #branding{
   float:left;
 }
@@ -122,14 +130,9 @@ header a:hover{
 #newsletter{
   padding:15px;
   color:#ffffff;
-  background:#50547c
+  background:#63678d
 }
 
-#newsletter5{
-  padding:15px;
-  color:#ffffff;
-  background:#50547c;
-}
 #newsletter h1{
   float:left;
 }
@@ -400,17 +403,12 @@ footer{
     margin-bottom:5px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
+#newsletter5{
+  padding:15px;
+  color:#ffffff;
+  background:#50547c;
+  text-align: center;
+}
 
 
 
@@ -485,4 +483,21 @@ footer{
       position: absolute;
   }
 } 
+/* 
+.hide{
+  display: none !important;
+}
 
+
+.esconder{
+  display: none;
+} */
+.ulo{
+  font-size:23px;
+  font-weight: bold;
+  text-align: center,
+
+}
+.ulo2{
+  text-align: center;
+}
